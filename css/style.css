@@ -7,9 +7,7 @@ body {
     font-size: 20px;
     color: white;
 }
-.brand-name{
-  
-}
+
 .navbar{
   position:fixed;
   width:100%;
@@ -24,6 +22,8 @@ body {
   width: 100vw;
   object-fit: cover;
   filter: brightness(0.7);
+  filter: blur(8px);
+  -webkit-filter: blur(3px);
   position: fixed;
   top: 0;
   left: 0;
@@ -56,7 +56,7 @@ td{
   right: 0;
   bottom: 0;
   background-color: black;
-  opacity: 0.5;
+  opacity: 0.6;
   z-index: -1;
 }
 .gradient {
